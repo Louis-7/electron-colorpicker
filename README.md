@@ -4,9 +4,17 @@
 
 A color picker tool built on top of Electron and Angular. It's also a project I use to learn Electron.
 
+### Features
+
+- Pick colors from your screen. (Support multiple screen)
+- Copy color text
+
 ## Development
 
+Read known issues before you getting start.
+
 ### Requirements
+
 Angular CLI needs Node 10.9 or later. 
 
 If you want to use angular-cli globally:
@@ -23,10 +31,19 @@ Install dependencies with npm :
 npm install
 ```
 
+Rebuild Electron modules:
+
+```bash
+npm run electron:rebuild-modules
+```
+
  Start development with:
+
 ```bash
 npm start
 ```
+
+### Other commands
 
 To run application in browser:
 
@@ -46,7 +63,6 @@ On Windows:
 npm run electron:windows
 ```
 
-### Known Issue
+### Known Issues
 
-- When you first time start your development with ```npm run start```, the color picker function will not work as expect. If you start pick color from the screen, it will always stay at "Color pick mode". To solve this problem, restart development session with ```ctrl + r```.
-
+- When you first time start your development with ```npm run start```, the color picker function will not work as expect. If you start pick color from the screen, it will always stay at "Color pick mode". To solve this problem, use ```win + d``` exit to desktop and open Color Picker window then restart development session with ```ctrl + r```.
