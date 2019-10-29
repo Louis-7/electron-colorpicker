@@ -1,0 +1,24 @@
+.color-range {
+    -webkit-appearance: none;
+    width: 200px;
+    height: 6px;
+    border-radius: 6px;
+    background:  #B7B6B6;
+    outline: none;
+  &::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    cursor: pointer;
+    -webkit-transition: background .15s ease-in-out;
+    transition: background .15s ease-in-out;
+    &:hover{
+        background:  #D9D9D9;
+    }
+  }
+  &:active::-webkit-slider-thumb {
+    background: #D9D9D9;
+  }
+}

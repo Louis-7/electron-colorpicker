@@ -1,0 +1,63 @@
+:host {
+  display: block;
+}
+
+.color-container {
+  .color-name {
+    display: block;
+    color: #fff;
+    opacity: 0.5;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+    width: 200px;
+    border: none;
+    background-color: #3e3e3e;
+    margin: 0 auto;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .color-control {
+    &.panel {
+      width: 500px;
+      margin: 0 auto;
+      margin-top: 20px;
+      // background-color: rgba(65, 65, 65, 0.5);
+    }
+
+    &.tab {
+      color: #fff;
+      margin: 0 auto;
+
+      ::ng-deep.mat-tab-header {
+        border-bottom: none;
+      }
+
+      ::ng-deep.mat-tab-label {
+        color: #fff;
+      }
+    }
+
+    .color-slider {
+      width: 260px;
+      margin: 5px auto;
+      display: block;
+
+      input[type=text] {
+        display: inline-block;
+        color: #fff;
+        opacity: 0.5;
+        font-weight: bolder;
+        font-size: 14px;
+        text-align: center;
+        width: 50px;
+        border: none;
+        background-color: #3e3e3e;
+        outline: none;
+      }
+    }
+  }
+}

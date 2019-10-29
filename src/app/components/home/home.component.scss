@@ -1,0 +1,18 @@
+$toolbar-height: 32px;
+
+.wrapper {
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: $toolbar-height;
+
+  .content-container {
+    height: 100%;
+
+    .color-palette {
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+    }
+  }
+}

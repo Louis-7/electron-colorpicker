@@ -1,0 +1,8 @@
+{
+  "PAGES": {
+      "HOME": {
+          "TITLE": "Color Picker!",
+          "INSTRUCTION":"Click the button to pick the color"
+      }
+  }
+}

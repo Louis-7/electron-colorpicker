@@ -1,0 +1,9 @@
+<div class="toolbar-container">
+  <i class="material-icons md-18 function-icon" (click)="start()">{{ picking ? 'blur_on': 'colorize'}}</i>
+  <i class="material-icons md-18 function-icon" (click)="copyColor()">file_copy</i>
+  <div class="window-operations">
+    <i class="material-icons md-18" (click)="minimizeWindow()">minimize</i>
+    <i class="material-icons md-18" (click)="maximizeWindow()">stop</i>
+    <i class="material-icons md-18" (click)="closeWindow()">close</i>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+$toolbar-height: 32px;
+
+:host {
+  display: block;
+  margin-top: -$toolbar-height;
+}
+
+.toolbar-container {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+  height: $toolbar-height;
+  background-color: #000;
+  opacity: 0.3;
+  padding: 1px 5px;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+
+  .material-icons {
+    -webkit-app-region: no-drag;
+  }
+
+  .function-icon {
+    cursor: pointer;
+    margin-left: 10px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .window-operations {
+    position: absolute;
+    right: 5px;
+
+    .material-icons{
+      cursor: pointer;
+    }
+  }
+}
