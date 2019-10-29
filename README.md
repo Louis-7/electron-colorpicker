@@ -9,6 +9,8 @@ A color picker tool built on top of Electron and Angular. It's also a project I 
 - Pick colors from your screen. (Support multiple screen)
 - Copy color text
 
+[![cpgif](https://github.com/Louis-7/electron-colorpicker/blob/master/colorpicker-gif.gif?raw=true)]()
+
 ## Development
 
 Read known issues before you getting start.
